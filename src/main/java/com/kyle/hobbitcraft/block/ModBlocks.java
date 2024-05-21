@@ -2,6 +2,7 @@ package com.kyle.hobbitcraft.block;
 
 import com.kyle.hobbitcraft.HobbitCraft;
 import com.kyle.hobbitcraft.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -20,13 +21,45 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, HobbitCraft.MOD_ID);
 
     public static final RegistryObject<Block> DREADED_BLOCK = registerBlock("dreaded_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).sound(SoundType.METAL)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).sound(SoundType.METAL)
+                    .strength(4f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> DREADED_ORE = registerBlock("dreaded_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> DREADED_DEEPSLATE_ORE = registerBlock("dreaded_deepslate_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(2f).requiresCorrectToolForDrops()));
+
+
     public static final RegistryObject<Block> KYLE_BLOCK = registerBlock("kyle_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).sound(SoundType.METAL)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).sound(SoundType.METAL)
+                    .strength(4f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> KYLE_ORE = registerBlock("kyle_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> KYLE_DEEPSLATE_ORE = registerBlock("kyle_deepslate_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(2f).requiresCorrectToolForDrops()));
+
     public static final RegistryObject<Block> PYRITE_BLOCK = registerBlock("pyrite_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+                    .strength(4f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> PYRITE_ORE = registerBlock("pyrite_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> PYRITE_DEEPSLATE_ORE = registerBlock("pyrite_deepslate_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(2f).requiresCorrectToolForDrops()));
+
     public static final RegistryObject<Block> WIBKITIUM_BLOCK = registerBlock("wibkitium_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).sound(SoundType.METAL)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).sound(SoundType.METAL)
+                    .strength(4f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> WIBKITIUM_ORE = registerBlock("wibkitium_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> WIBKITIUM_DEEPSLATE_ORE = registerBlock("wibkitium_deepslate_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(2f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hobbitcraft:kyle_ingot"
+    }
+  },
+  "result": {
+    "item": "hobbitcraft:kyle_chestplate"
+  }
+}

@@ -6,9 +6,17 @@
   "item.hobbitcraft.blank_record": "Blank Record",
 
   "block.hobbitcraft.dreaded_block": "Dreaded Block",
+  "block.hobbitcraft.dreaded_ore": "Dreaded Ore",
+  "block.hobbitcraft.dreaded_deepslate_ore": "Deepslate Dreaded Ore",
   "block.hobbitcraft.kyle_block": "Kyle Block",
+  "block.hobbitcraft.kyle_ore": "Kyle Ore",
+  "block.hobbitcraft.kyle_deepslate_ore": "Deepslate Kyle Ore",
   "block.hobbitcraft.pyrite_block": "Pyrite Block",
+  "block.hobbitcraft.pyrite_ore": "Pyrite Ore",
+  "block.hobbitcraft.pyrite_deepslate_ore": "Deepslate Pyrite Ore",
   "block.hobbitcraft.wibkitium_block": "Wibkitium Block",
+  "block.hobbitcraft.wibkitium_ore": "Wibkitium Ore",
+  "block.hobbitcraft.wibkitium_deepslate_ore": "Deepslate Wibkitium Ore",
 
   "creativetab.hobbitcraft": "HobbitCraft"
 }

@@ -20,18 +20,26 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.DREADED_INGOT.get());
                         pOutput.accept(ModBlocks.DREADED_BLOCK.get());
+                        pOutput.accept(ModBlocks.DREADED_ORE.get());
+                        pOutput.accept(ModBlocks.DREADED_DEEPSLATE_ORE.get());
 
 
                         pOutput.accept(ModItems.KYLE_INGOT.get());
                         pOutput.accept(ModBlocks.KYLE_BLOCK.get());
+                        pOutput.accept(ModBlocks.KYLE_ORE.get());
+                        pOutput.accept(ModBlocks.KYLE_DEEPSLATE_ORE.get());
 
 
                         pOutput.accept(ModItems.PYRITE_INGOT.get());
                         pOutput.accept(ModBlocks.PYRITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.PYRITE_ORE.get());
+                        pOutput.accept(ModBlocks.PYRITE_DEEPSLATE_ORE.get());
 
 
                         pOutput.accept(ModItems.WIBKITIUM_INGOT.get());
                         pOutput.accept(ModBlocks.WIBKITIUM_BLOCK.get());
+                        pOutput.accept(ModBlocks.WIBKITIUM_ORE.get());
+                        pOutput.accept(ModBlocks.WIBKITIUM_DEEPSLATE_ORE.get());
 
                         pOutput.accept(ModItems.BLANK_RECORD.get());
                     })
