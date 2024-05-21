@@ -1,0 +1,14 @@
+{
+  "item.hobbitcraft.dreaded_ingot": "Dreaded Ingot",
+  "item.hobbitcraft.kyle_ingot": "Kyle Ingot",
+  "item.hobbitcraft.pyrite_ingot": "Pyrite Ingot",
+  "item.hobbitcraft.wibkitium_ingot": "Wibkitium Ingot",
+  "item.hobbitcraft.blank_record": "Blank Record",
+
+  "block.hobbitcraft.dreaded_block": "Dreaded Block",
+  "block.hobbitcraft.kyle_block": "Kyle Block",
+  "block.hobbitcraft.pyrite_block": "Pyrite Block",
+  "block.hobbitcraft.wibkitium_block": "Wibkitium Block",
+
+  "creativetab.hobbitcraft": "HobbitCraft"
+}

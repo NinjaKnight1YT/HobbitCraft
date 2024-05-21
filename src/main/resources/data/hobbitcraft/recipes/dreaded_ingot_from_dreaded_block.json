@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hobbitcraft:dreaded_block"
+    }
+  ],
+  "result": {
+    "item": "hobbitcraft:dreaded_ingot",
+    "count": 9
+  }
+}

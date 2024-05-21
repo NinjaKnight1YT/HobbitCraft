@@ -1,5 +1,8 @@
 package com.kyle.hobbitcraft;
 
+import com.kyle.hobbitcraft.block.ModBlocks;
+import com.kyle.hobbitcraft.item.ModCreativeModeTabs;
+import com.kyle.hobbitcraft.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -16,8 +19,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(hobbitcraft.MOD_ID)
-public class hobbitcraft {
+@Mod(HobbitCraft.MOD_ID)
+public class HobbitCraft {
 
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "hobbitcraft";
@@ -25,8 +28,12 @@ public class hobbitcraft {
     private static final Logger LOGGER = LogUtils.getLogger();
     // Create a Deferred Register to hold Blocks which will all be registered under the "hobbitcraft" namespace
 
-    public hobbitcraft() {
+    public HobbitCraft() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -47,7 +54,6 @@ public class hobbitcraft {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
