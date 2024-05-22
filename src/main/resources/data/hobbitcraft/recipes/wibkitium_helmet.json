@@ -7,10 +7,10 @@
     ],
     "key": {
         "#": {
-            "item": "hobbitcraft:dreaded_ingot"
+            "item": "hobbitcraft:wibkitium_ingot"
         }
     },
     "result": {
-        "item": "hobbitcraft:dreaded_helmet"
+        "item": "hobbitcraft:wibkitium_helmet"
     }
 }

@@ -3,14 +3,15 @@
     "category": "misc",
     "pattern": [
         "###",
+        "# #",
         "# #"
     ],
     "key": {
         "#": {
-            "item": "hobbitcraft:dreaded_ingot"
+            "item": "hobbitcraft:kyle_ingot"
         }
     },
     "result": {
-        "item": "hobbitcraft:dreaded_helmet"
+        "item": "hobbitcraft:kyle_leggings"
     }
 }

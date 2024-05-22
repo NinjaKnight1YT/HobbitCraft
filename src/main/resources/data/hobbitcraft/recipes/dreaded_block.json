@@ -1,17 +1,17 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "hobbitcraft:dreaded_ingot"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "hobbitcraft:dreaded_ingot"
+        }
+    },
+    "result": {
+        "item": "hobbitcraft:dreaded_block"
     }
-  },
-  "result": {
-    "item": "hobbitcraft:dreaded_block"
-  }
 }

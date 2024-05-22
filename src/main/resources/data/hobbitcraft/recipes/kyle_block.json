@@ -1,17 +1,17 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "hobbitcraft:kyle_ingot"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "hobbitcraft:kyle_ingot"
+        }
+    },
+    "result": {
+        "item": "hobbitcraft:kyle_block"
     }
-  },
-  "result": {
-    "item": "hobbitcraft:kyle_block"
-  }
 }
