@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "kyle_blasting",
+  "ingredient": {
+    "item": "hobbitcraft:kyle_ore"
+  },
+  "result": "hobbitcraft:kyle_ingot"
+}

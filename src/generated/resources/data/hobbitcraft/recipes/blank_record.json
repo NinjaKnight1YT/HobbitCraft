@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hobbitcraft:dreaded_ingot"
+    },
+    {
+      "item": "hobbitcraft:kyle_ingot"
+    },
+    {
+      "item": "hobbitcraft:pyrite_ingot"
+    },
+    {
+      "item": "hobbitcraft:wibkitium_ingot"
+    }
+  ],
+  "result": {
+    "item": "hobbitcraft:blank_record"
+  }
+}

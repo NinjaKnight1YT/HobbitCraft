@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "dreaded_smelting",
+  "ingredient": {
+    "item": "hobbitcraft:dreaded_ore"
+  },
+  "result": "hobbitcraft:dreaded_ingot"
+}

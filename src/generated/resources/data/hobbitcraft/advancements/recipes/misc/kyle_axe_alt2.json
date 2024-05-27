@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_kyle_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hobbitcraft:kyle_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hobbitcraft:kyle_axe_alt2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_kyle_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hobbitcraft:kyle_axe_alt2"
+    ]
+  },
+  "sends_telemetry_event": false
+}

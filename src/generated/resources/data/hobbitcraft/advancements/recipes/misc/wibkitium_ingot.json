@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hobbitcraft:wibkitium_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wibkitium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hobbitcraft:wibkitium_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wibkitium_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hobbitcraft:wibkitium_ingot"
+    ]
+  },
+  "sends_telemetry_event": false
+}

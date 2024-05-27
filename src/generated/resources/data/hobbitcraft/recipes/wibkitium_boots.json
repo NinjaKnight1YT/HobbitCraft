@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "hobbitcraft:wibkitium_ingot"
+    }
+  },
+  "pattern": [
+    "W W",
+    "W W"
+  ],
+  "result": {
+    "item": "hobbitcraft:wibkitium_boots"
+  },
+  "show_notification": true
+}

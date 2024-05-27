@@ -1,0 +1,4 @@
+// 1.20.1	2024-05-28T00:20:26.6715846	Tags for minecraft:block mod id hobbitcraft
+84e03481a8222c8f62c5af596eae9c01ad8d33cc data/forge/tags/blocks/needs_netherite_tool.json
+77161b1757d3e1e93f0ebeca7caedf33aff1c2e8 data/minecraft/tags/blocks/mineable/pickaxe.json
+1d848b6904c5de2de31572db101aaff55061d391 data/minecraft/tags/blocks/needs_stone_tool.json

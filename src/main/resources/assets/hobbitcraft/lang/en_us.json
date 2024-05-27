@@ -1,8 +1,56 @@
 {
   "item.hobbitcraft.dreaded_ingot": "Dreaded Ingot",
+  "item.hobbitcraft.dreaded_axe": "Dreaded Axe",
+  "item.hobbitcraft.dreaded_pickaxe": "Dreaded Pickaxe",
+  "item.hobbitcraft.dreaded_hoe": "Dreaded Hoe",
+  "item.hobbitcraft.dreaded_sword": "Dreaded Sword",
+  "item.hobbitcraft.dreaded_shovel": "Dreaded Shovel",
+  "item.hobbitcraft.dreaded_helmet": "Dreaded Helmet",
+  "item.hobbitcraft.dreaded_chestplate": "Dreaded Chestplate",
+  "item.hobbitcraft.dreaded_leggings": "Dreaded Leggings",
+  "item.hobbitcraft.dreaded_boots": "Dreaded Boots",
+
+
   "item.hobbitcraft.kyle_ingot": "Kyle Ingot",
+  "item.hobbitcraft.kyle_axe": "Kyle Axe",
+  "item.hobbitcraft.kyle_pickaxe": "Kyle Pickaxe",
+  "item.hobbitcraft.kyle_hoe": "Kyle Hoe",
+  "item.hobbitcraft.kyle_sword": "Kyle Sword",
+  "item.hobbitcraft.kyle_shovel": "Kyle Shovel",
+  "item.hobbitcraft.kyle_helmet": "Kyle Helmet",
+  "item.hobbitcraft.kyle_chestplate": "Kyle Chestplate",
+  "item.hobbitcraft.kyle_leggings": "Kyle Leggings",
+  "item.hobbitcraft.kyle_boots": "Kyle Boots",
+
+
   "item.hobbitcraft.pyrite_ingot": "Pyrite Ingot",
+  "item.hobbitcraft.pyrite_axe": "Pyrite Axe",
+  "item.hobbitcraft.pyrite_pickaxe": "Pyrite Pickaxe",
+  "item.hobbitcraft.pyrite_hoe": "Pyrite Hoe",
+  "item.hobbitcraft.pyrite_sword": "Pyrite Sword",
+  "item.hobbitcraft.pyrite_shovel": "Pyrite Shovel",
+  "item.hobbitcraft.pyrite_helmet": "Pyrite Helmet",
+  "item.hobbitcraft.pyrite_chestplate": "Pyrite Chestplate",
+  "item.hobbitcraft.pyrite_leggings": "Pyrite Leggings",
+  "item.hobbitcraft.pyrite_boots": "Pyrite Boots",
+
+
   "item.hobbitcraft.wibkitium_ingot": "Wibkitium Ingot",
+  "item.hobbitcraft.wibkitium_axe": "Wibkitium Axe",
+  "item.hobbitcraft.wibkitium_pickaxe": "Wibkitium Pickaxe",
+  "item.hobbitcraft.wibkitium_hoe": "Wibkitium Hoe",
+  "item.hobbitcraft.wibkitium_sword": "Wibkitium Sword",
+  "item.hobbitcraft.wibkitium_shovel": "Wibkitium Shovel",
+  "item.hobbitcraft.wibkitium_helmet": "Wibkitium Helmet",
+  "item.hobbitcraft.wibkitium_chestplate": "Wibkitium Chestplate",
+  "item.hobbitcraft.wibkitium_leggings": "Wibkitium Leggings",
+  "item.hobbitcraft.wibkitium_boots": "Wibkitium Boots",
+
+
+  "item.hobbitcraft.dreaded_record": "Dreaded Record",
+  "item.hobbitcraft.dreaded_record.desc": "Linkin Park - Lost",
+  "item.hobbitcraft.kyle_record": "Kyle Record",
+  "item.hobbitcraft.kyle_record.desc": "Linkin Park - Somewhere I Belong",
   "item.hobbitcraft.blank_record": "Blank Record",
 
   "block.hobbitcraft.dreaded_block": "Dreaded Block",

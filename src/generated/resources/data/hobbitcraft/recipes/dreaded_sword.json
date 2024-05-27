@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "hobbitcraft:dreaded_ingot"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "I",
+    "I",
+    "N"
+  ],
+  "result": {
+    "item": "hobbitcraft:dreaded_sword"
+  },
+  "show_notification": true
+}

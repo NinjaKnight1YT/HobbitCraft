@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "hobbitcraft:pyrite_ingot"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "P P"
+  ],
+  "result": {
+    "item": "hobbitcraft:pyrite_helmet"
+  },
+  "show_notification": true
+}

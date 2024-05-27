@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smelting",
-    "ingredient": {
-        "item": "hobbitcraft:wibkitium_deepslate_ore"
-    },
-    "result": "hobbitcraft:wibkitium_ingot",
-    "experience": 0.7,
-    "cookingtime": 200
-}

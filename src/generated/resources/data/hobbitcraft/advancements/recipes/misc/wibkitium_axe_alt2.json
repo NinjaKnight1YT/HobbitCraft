@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hobbitcraft:wibkitium_axe_alt2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wibkitium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hobbitcraft:wibkitium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wibkitium_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hobbitcraft:wibkitium_axe_alt2"
+    ]
+  },
+  "sends_telemetry_event": false
+}

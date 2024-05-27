@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hobbitcraft:wibkitium_ingot_from_blasting_wibkitium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wibkitium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hobbitcraft:wibkitium_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wibkitium_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hobbitcraft:wibkitium_ingot_from_blasting_wibkitium_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

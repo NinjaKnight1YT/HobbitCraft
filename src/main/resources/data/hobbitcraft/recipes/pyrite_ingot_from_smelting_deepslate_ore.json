@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smelting",
-    "ingredient": {
-        "item": "hobbitcraft:pyrite_deepslate_ore"
-    },
-    "result": "hobbitcraft:pyrite_ingot",
-    "experience": 0.7,
-    "cookingtime": 200
-}

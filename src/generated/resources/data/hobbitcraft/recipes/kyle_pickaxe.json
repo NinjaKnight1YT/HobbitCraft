@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "hobbitcraft:kyle_ingot"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "III",
+    " N ",
+    " N "
+  ],
+  "result": {
+    "item": "hobbitcraft:kyle_pickaxe"
+  },
+  "show_notification": true
+}

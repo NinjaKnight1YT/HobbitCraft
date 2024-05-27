@@ -1,0 +1,19 @@
+{
+  "dreaded_record": {
+    "sounds": [
+      {
+        "name": "hobbitcraft:dreaded_record",
+        "stream": true
+      }
+    ]
+  },
+
+  "kyle_record": {
+    "sounds": [
+      {
+        "name": "hobbitcraft:kyle_record",
+        "stream": true
+      }
+    ]
+  }
+}

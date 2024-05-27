@@ -7,7 +7,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_pine_taiga": "2024-05-20 22:19:34 +0100"
+      "minecraft:old_growth_pine_taiga": "2024-05-20 22:19:34 +0100",
+      "minecraft:taiga": "2024-05-28 00:27:23 +0100"
     },
     "done": false
   },
@@ -68,6 +69,534 @@
   "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_golden_pickaxe": "2024-05-21 11:46:21 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_chestplate": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_ingot_from_blasting_wibkitium_deepslate_ore": {
+    "criteria": {
+      "has_wibkitium_deepslate_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_ingot_from_smelting_kyle_deepslate_ore": {
+    "criteria": {
+      "has_kyle_deepslate_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_pickaxe": {
+    "criteria": {
+      "has_wibkitium_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_ingot_from_smelting_dreaded_deepslate_ore": {
+    "criteria": {
+      "has_dreaded_deepslate_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_chestplate": {
+    "criteria": {
+      "has_kyle_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_ingot_from_smelting_wibkitium_ore": {
+    "criteria": {
+      "has_wibkitium_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_ingot_from_smelting_dreaded_ore": {
+    "criteria": {
+      "has_dreaded_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_ingot_from_blasting_kyle_ore": {
+    "criteria": {
+      "has_kyle_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_hoe_alt1": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_hoe_alt2": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_sword": {
+    "criteria": {
+      "has_wibkitium_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_boots": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_hoe_alt1": {
+    "criteria": {
+      "has_kyle_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_hoe_alt2": {
+    "criteria": {
+      "has_kyle_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_ingot_from_blasting_pyrite_deepslate_ore": {
+    "criteria": {
+      "has_pyrite_deepslate_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_ingot": {
+    "criteria": {
+      "has_wibkitium_block": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_block": {
+    "criteria": {
+      "has_pyrite_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_block": {
+    "criteria": {
+      "has_wibkitium_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_boots": {
+    "criteria": {
+      "has_pyrite_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_pickaxe": {
+    "criteria": {
+      "has_kyle_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_helmet": {
+    "criteria": {
+      "has_pyrite_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_block": {
+    "criteria": {
+      "has_kyle_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_ingot_from_smelting_kyle_ore": {
+    "criteria": {
+      "has_kyle_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_ingot_from_blasting_dreaded_ore": {
+    "criteria": {
+      "has_dreaded_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_shovel": {
+    "criteria": {
+      "has_pyrite_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_ingot_from_blasting_pyrite_ore": {
+    "criteria": {
+      "has_pyrite_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_boots": {
+    "criteria": {
+      "has_kyle_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_chestplate": {
+    "criteria": {
+      "has_wibkitium_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_axe_alt2": {
+    "criteria": {
+      "has_pyrite_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_axe_alt1": {
+    "criteria": {
+      "has_pyrite_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_leggings": {
+    "criteria": {
+      "has_pyrite_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_pickaxe": {
+    "criteria": {
+      "has_pyrite_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_record": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_ingot_from_blasting_dreaded_deepslate_ore": {
+    "criteria": {
+      "has_dreaded_deepslate_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_leggings": {
+    "criteria": {
+      "has_wibkitium_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_ingot_from_smelting_wibkitium_deepslate_ore": {
+    "criteria": {
+      "has_wibkitium_deepslate_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_ingot_from_smelting_pyrite_deepslate_ore": {
+    "criteria": {
+      "has_pyrite_deepslate_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_boots": {
+    "criteria": {
+      "has_wibkitium_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_hoe_alt2": {
+    "criteria": {
+      "has_wibkitium_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_hoe_alt1": {
+    "criteria": {
+      "has_wibkitium_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/blank_record": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_leggings": {
+    "criteria": {
+      "has_kyle_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_ingot": {
+    "criteria": {
+      "has_kyle_block": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_helmet": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_axe_alt1": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_axe_alt2": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_axe_alt1": {
+    "criteria": {
+      "has_kyle_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_axe_alt2": {
+    "criteria": {
+      "has_kyle_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_chestplate": {
+    "criteria": {
+      "has_pyrite_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_record": {
+    "criteria": {
+      "has_kyle_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_pickaxe": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_helmet": {
+    "criteria": {
+      "has_wibkitium_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_ingot_from_smelting_pyrite_ore": {
+    "criteria": {
+      "has_pyrite_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_ingot_from_blasting_wibkitium_ore": {
+    "criteria": {
+      "has_wibkitium_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_leggings": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_hoe_alt2": {
+    "criteria": {
+      "has_pyrite_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_hoe_alt1": {
+    "criteria": {
+      "has_pyrite_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_axe_alt2": {
+    "criteria": {
+      "has_wibkitium_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_axe_alt1": {
+    "criteria": {
+      "has_wibkitium_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_ingot": {
+    "criteria": {
+      "has_pyrite_block": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_sword": {
+    "criteria": {
+      "has_kyle_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_block": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_helmet": {
+    "criteria": {
+      "has_kyle_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_sword": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_ingot_from_blasting_kyle_deepslate_ore": {
+    "criteria": {
+      "has_kyle_deepslate_ore": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_shovel": {
+    "criteria": {
+      "has_dreaded_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/kyle_shovel": {
+    "criteria": {
+      "has_kyle_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/dreaded_ingot": {
+    "criteria": {
+      "has_dreaded_block": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/pyrite_sword": {
+    "criteria": {
+      "has_pyrite_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "hobbitcraft:recipes/misc/wibkitium_shovel": {
+    "criteria": {
+      "has_wibkitium_ingot": "2024-05-28 00:21:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template": {
+    "criteria": {
+      "has_dune_armor_trim_smithing_template": "2024-05-28 00:26:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-05-28 00:26:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-05-28 00:26:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2024-05-28 00:27:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2024-05-28 00:27:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2024-05-28 00:27:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2024-05-28 00:27:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-05-28 00:27:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-05-28 00:27:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-05-28 00:27:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-05-28 00:27:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-05-28 00:27:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-05-28 00:27:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-05-28 00:27:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-05-28 00:27:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-05-28 00:27:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:dune_armor_trim_smithing_template_smithing_trim": "2024-05-28 00:30:15 +0100"
     },
     "done": true
   },

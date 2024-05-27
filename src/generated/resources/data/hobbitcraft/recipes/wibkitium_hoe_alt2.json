@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "hobbitcraft:wibkitium_ingot"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    " II",
+    " N ",
+    " N "
+  ],
+  "result": {
+    "item": "hobbitcraft:wibkitium_hoe"
+  },
+  "show_notification": true
+}

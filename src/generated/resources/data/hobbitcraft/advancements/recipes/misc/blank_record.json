@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dreaded_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hobbitcraft:dreaded_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_kyle_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hobbitcraft:kyle_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pyrite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hobbitcraft:pyrite_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hobbitcraft:blank_record"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wibkitium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hobbitcraft:wibkitium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_dreaded_ingot",
+      "has_kyle_ingot",
+      "has_pyrite_ingot",
+      "has_wibkitium_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hobbitcraft:blank_record"
+    ]
+  },
+  "sends_telemetry_event": false
+}

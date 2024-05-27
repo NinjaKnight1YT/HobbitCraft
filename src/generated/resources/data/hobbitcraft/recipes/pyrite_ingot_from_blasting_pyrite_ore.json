@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "pyrite_blasting",
+  "ingredient": {
+    "item": "hobbitcraft:pyrite_ore"
+  },
+  "result": "hobbitcraft:pyrite_ingot"
+}

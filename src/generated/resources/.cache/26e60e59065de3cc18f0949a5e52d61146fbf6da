@@ -1,0 +1,5 @@
+// 1.20.1	2024-05-28T00:20:26.6660666	Tags for minecraft:item mod id hobbitcraft
+db5a88ee46c3982c11d68f934d65dd3aa82f22c5 data/minecraft/tags/items/creeper_drop_music_discs.json
+db5a88ee46c3982c11d68f934d65dd3aa82f22c5 data/minecraft/tags/items/music_discs.json
+b3ba455f9c730124485e4a303d2969d0382dc1bf data/minecraft/tags/items/piglin_loved.json
+218bd3cf7a3f1224d3c0d43f9241e164f6193742 data/minecraft/tags/items/trimmable_armor.json

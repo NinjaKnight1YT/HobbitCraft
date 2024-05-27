@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "hobbitcraft:dreaded_ingot"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "D D"
+  ],
+  "result": {
+    "item": "hobbitcraft:dreaded_helmet"
+  },
+  "show_notification": true
+}

@@ -3,6 +3,7 @@ package com.kyle.hobbitcraft;
 import com.kyle.hobbitcraft.block.ModBlocks;
 import com.kyle.hobbitcraft.item.ModCreativeModeTabs;
 import com.kyle.hobbitcraft.item.ModItems;
+import com.kyle.hobbitcraft.sound.ModSounds;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,6 +35,7 @@ public class HobbitCraft {
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

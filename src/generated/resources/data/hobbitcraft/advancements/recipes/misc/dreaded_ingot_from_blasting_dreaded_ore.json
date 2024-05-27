@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dreaded_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hobbitcraft:dreaded_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hobbitcraft:dreaded_ingot_from_blasting_dreaded_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dreaded_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hobbitcraft:dreaded_ingot_from_blasting_dreaded_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}
