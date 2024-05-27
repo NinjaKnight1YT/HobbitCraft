@@ -96,16 +96,16 @@ public class ModItems {
             () -> new ShovelItem(Tiers.IRON, 1.5f, -3.0f, new Item.Properties()));
 
     public static final RegistryObject<Item> PYRITE_HELMET = ITEMS.register("pyrite_helmet",
-            () -> new ArmorItem(ArmorMaterials.IRON, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.PYRITE, ArmorItem.Type.HELMET, new Item.Properties()));
 
     public static final RegistryObject<Item> PYRITE_CHESTPLATE = ITEMS.register("pyrite_chestplate",
-            () -> new ArmorItem(ArmorMaterials.IRON, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.PYRITE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
 
     public static final RegistryObject<Item> PYRITE_LEGGINGS = ITEMS.register("pyrite_leggings",
-            () -> new ArmorItem(ArmorMaterials.IRON, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.PYRITE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
 
     public static final RegistryObject<Item> PYRITE_BOOTS = ITEMS.register("pyrite_boots",
-            () -> new ArmorItem(ArmorMaterials.IRON, ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.PYRITE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
 

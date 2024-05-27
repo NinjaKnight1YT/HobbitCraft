@@ -17,6 +17,8 @@ public enum ModArmorMaterials implements ArmorMaterial {
     KYLE("kyle", 2600, new int[]{ 5, 7, 5, 4 }, 50,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 10f, 5f, () -> Ingredient.of(ModItems.KYLE_INGOT.get())),
 
+    PYRITE("pyrite", 15, new int[]{ 2, 5, 6, 2 }, 9, SoundEvents.ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> Ingredient.of(ModItems.PYRITE_INGOT.get())),
+
     WIBKITIUM("wibkitium", 2600, new int[]{ 5, 7, 5, 4 }, 50,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 10f, 5f, () -> Ingredient.of(ModItems.WIBKITIUM_INGOT.get()));
 
@@ -29,7 +31,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     private final float knockbackResistance;
     private final Supplier<Ingredient> repairIngredient;
 
-    private static final int[] BASE_DURABILITY = { 11, 16, 15, 13};
+    private static final int[] BASE_DURABILITY = { 13, 15, 16, 11};
 
     ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantmentValue, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
         this.name = name;
