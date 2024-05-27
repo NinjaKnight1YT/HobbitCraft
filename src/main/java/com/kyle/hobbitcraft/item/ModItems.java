@@ -84,7 +84,7 @@ public class ModItems {
             () -> new SwordItem(Tiers.IRON, 3, -2.4f, new Item.Properties()));
 
     public static final RegistryObject<Item> PYRITE_HOE = ITEMS.register("pyrite_hoe",
-            () -> new HoeItem(Tiers.IRON, -1, -3, new Item.Properties()));
+            () -> new HoeItem(Tiers.IRON, -2, -1, new Item.Properties()));
 
     public static final RegistryObject<Item> PYRITE_AXE = ITEMS.register("pyrite_axe",
             () -> new AxeItem(Tiers.IRON, 6f, -3.1f, new Item.Properties()));
