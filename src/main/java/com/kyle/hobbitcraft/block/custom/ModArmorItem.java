@@ -16,11 +16,11 @@ public class ModArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
                     .put(ModArmorMaterials.DREADED, new MobEffectInstance(MobEffects.DAMAGE_BOOST, 200, 5,
-                            false, false, true))
+                            false, false, false))
                     .put(ModArmorMaterials.KYLE, new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 200, 5,
-                            false, false, true))
+                            false, false, false))
                     .put(ModArmorMaterials.WIBKITIUM, new MobEffectInstance(MobEffects.NIGHT_VISION, 600, 5,
-                            false, false, true)).build();
+                            false, false, false)).build();
 
     public ModArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
         super(pMaterial, pType, pProperties);

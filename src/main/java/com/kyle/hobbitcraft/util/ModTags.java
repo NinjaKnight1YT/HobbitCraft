@@ -12,7 +12,6 @@ public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> NEEDS_DREADED_TOOL = tag("needs_dreaded_tool");
         public static final TagKey<Block> NEEDS_KYLE_TOOL = tag("needs_kyle_tool");
-        public static final TagKey<Block> NEEDS_PYRITE_TOOL = tag("needs_pyrite_tool");
         public static final TagKey<Block> NEEDS_WIBKITIUM_TOOL = tag("needs_wibkitium_tool");
 
         private static TagKey<Block> tag(String name) {
