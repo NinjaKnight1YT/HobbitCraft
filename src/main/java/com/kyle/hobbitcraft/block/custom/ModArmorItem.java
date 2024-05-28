@@ -19,7 +19,7 @@ public class ModArmorItem extends ArmorItem {
                             false, false, true))
                     .put(ModArmorMaterials.KYLE, new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 200, 5,
                             false, false, true))
-                    .put(ModArmorMaterials.WIBKITIUM, new MobEffectInstance(MobEffects.NIGHT_VISION, 200, 5,
+                    .put(ModArmorMaterials.WIBKITIUM, new MobEffectInstance(MobEffects.NIGHT_VISION, 600, 5,
                             false, false, true)).build();
 
     public ModArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
@@ -50,7 +50,7 @@ public class ModArmorItem extends ArmorItem {
                                             MobEffectInstance mapStatusEffect) {
         boolean hasPlayerEffect = player.hasEffect(mapStatusEffect.getEffect());
 
-        if(hasCorrectArmorOn(mapArmorMaterial, player) && !hasPlayerEffect) {
+        if(hasCorrectArmorOn(mapArmorMaterial, player)) {
             player.addEffect(new MobEffectInstance(mapStatusEffect));
         }
     }
